@@ -44,6 +44,7 @@ apps:
     plugs:
       - home
       - network
+      # Some pre-commit hooks spin up local servers or bind ports for testing
       - network-bind
       - removable-media
       - ssh-keys
